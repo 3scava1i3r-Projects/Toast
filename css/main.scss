@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Share Tech',sans-serif;
+    
+}
+
+#body {
+    background-color: #34333ac9;
+}
+
+#estate-con {
+    margin-top: 100px;
+}
+
+#estate-card {
+    background-color: rgba(43, 43, 65, 0.685);
+    width: 420px;
+    border-radius: 20px;
+    height: 620px;
+    flex-direction: column;
+    float: left;
+    margin-left: 30px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#estate-content {
+    font-size: 26px;
+
+    width: 410px;
+}
+
+#estate-img {
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+    margin-top: 20px;
+}
+
+#estate-p {
+    color: white;
+    margin: 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#estate-a {
+    text-decoration: none;
+}
+
+#estate-btn {
+    border-radius: 10px;
+    color: cornflowerblue;
+    width: 130px;
+}
