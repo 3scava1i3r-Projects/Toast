@@ -2,7 +2,7 @@ axios
   .post("https://api.thegraph.com/subgraphs/name/ninjashiroi/oxmons", {
     query: `
     {
-  monsters(orderBy: number, first: 53) {
+  monsters(orderBy: number, first: 100) {
     id
     number
     owner

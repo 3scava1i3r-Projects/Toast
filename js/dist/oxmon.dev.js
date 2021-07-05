@@ -1,7 +1,7 @@
 "use strict";
 
 axios.post("https://api.thegraph.com/subgraphs/name/ninjashiroi/oxmons", {
-  query: "\n    {\n  monsters(orderBy: number, first: 53) {\n    id\n    number\n    owner\n    bits\n    tokenUri\n    gen\n    minterContract\n    rarity\n    \n    \n  }\n}           \n          "
+  query: "\n    {\n  monsters(orderBy: number, first: 100) {\n    id\n    number\n    owner\n    bits\n    tokenUri\n    gen\n    minterContract\n    rarity\n    \n    \n  }\n}           \n          "
 }).then(function (res) {
   res.data.data.monsters.map(function (gg) {
     var rarity = gg.rarity;
