@@ -1,7 +1,7 @@
 "use strict";
 
 axios.post("https://api.thegraph.com/subgraphs/name/nikolaymalmal/rarible", {
-  query: "\n    {\n  \n  rarities(first: 50) {\n    id\n    Link\n    Owner {\n      id\n    }\n  }\n}\n          "
+  query: "\n    {\n  \n  rarities(first: 100) {\n    id\n    Link\n    Owner {\n      id\n    }\n  }\n}\n          "
 }).then(function (res) {
   res.data.data.rarities.map(function (_char) {
     var owner = _char.Owner.id;

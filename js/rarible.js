@@ -3,7 +3,7 @@ axios
     query: `
     {
   
-  rarities(first: 50) {
+  rarities(first: 100) {
     id
     Link
     Owner {
