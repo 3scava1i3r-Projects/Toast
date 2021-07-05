@@ -78,7 +78,7 @@ I have used this subgraph to retrieve information about the first 100 rarities.T
 
 here is our [query](https://github.com/3scava1i3r/Toast/blob/fbecdbde092423f9c8d454c637649b828ca5625b/js/rarible.js#L6)
 
-You can also check out more information about the Rarity and then bid for that particular Rarity on redirected Rarible marketplace.
+You can also check out more information about the Rarity and then bid for that particular Rarity on redirected Rarible marketplace.This page is a little bugged right now , i am looking into this matter(imgaes take time to load)
 
 
 
